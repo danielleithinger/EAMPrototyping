@@ -20,7 +20,7 @@
 
     ![Fusion360 Screenshot 4](<Images/Fusion360 Screenshot 4.png>)
 
-5. Finish the sketch and extrude it by a distance equivalent to your 3D printing layer height.
+5. Finish the sketch and extrude it by a distance equivalent to your 3D printing layer height. My layer height is 0.2 mm.
     - If you don't know what your layer height is, you can find it in your slicing software. In Cura it is labled as "Layer Height" in the print settings.
 
     ![Fusion360 Screenshot 5](<Images/Fusion360 Screenshot 5.png>)
@@ -57,42 +57,76 @@
 
     ![Cura Screenshot 5](<Images/Cura Screenshot 5.png>)
 
-## Step 3: Set up 3D printer for Heat Sealing (PENDING IMAGES)
+## Step 3: Set up 3D printer for Heat Sealing
 
 1. Adjust the bed height so that the nozzle contacts the teflon while heat sealing.
     1. Acquire a section of teflon and two layers of plastic that you will be using for heat sealing.
 
-    2. Turn on the Ender-3 and go to the "Prepare" menu. Select "Auto Home" and then, within "Move Axis", use "Move X" and "Move Y" to position the extruder in the following steps. The move axis commands function by selecting a displacement such as "Move 10mm" and then turning the dial to move the extruder in those increments.
+        ![Setup Image 1](Images/IMG_5128.png)
 
+    2. Turn on the Ender-3 and go to the "Prepare" menu. Select "Auto Home" and then, within "Move Axis", use "Move X" and "Move Y" to position the extruder in the following steps. The move axis commands function by selecting a displacement such as "Move 10mm" and then turning the dial to move the extruder in those increments.
+    - You will also need to "Move Z" up by the layer height for calibration. This is because the 3D printer will start the print a layer height's distance off of the print bed, and we want to in contact with the teflon. This will cause some collision when the printer autohomes, but the effects have seemed negligeable. Ideally the printer would not start a layer height above the bed, but I have not figured out a simple way to disable this.
+    
+        ![Setup Image 2](Images/IMG_5131.png)
+        ![Setup Image 3](Images/IMG_5132.png)
+        ![Setup Image 4](Images/IMG_5135.png)
+    
     3. Near each corner of the print bed, position the stack of teflon with two plastic layers underneath below the nozzle. Turn the bed height adjusting knob at that corner until the nozzle contacts the teflon. Adjust until the teflon can be slid back and forth under the nozzle with a small amount amount of friction. Make sure that the bed is not being pushed downwards and that the nozzle assembly is not being deflected upwards.
+
+        ![Setup Image 5](Images/IMG_5136.png)
 
 2. I also flipped the bed upside down to get a smoother surface to heat seal on. I am unsure if this is necessary.
 
-## Step 4: Perform the Heat Sealing (PENDING UPDATED IMAGES)
+## Step 4: Perform the Heat Sealing
 
-1. Cut a piece of teflon to the size of the print bed. A printer bed can be used as a template to get the correct size.
+1. Cut a piece of teflon to the size of the print bed. A printer bed can be used as a template to get the correct size. The teflon can be reused for multiple times.
 
-    ![Alt text](Images/IMG_0492.png)
-
-    ![Alt text](Images/IMG_0493.png)
+    ![Heat Sealing Image 1](Images/IMG_0493.png)
 
 2. Cut a 9.5 inch strip of plastic, equivalent to the length of the print bed, off the end of the roll of plastic, and fold it in half to get a double layered sheet of plastic to heat seal. Make sure that the inside of the plastic is folded together so that the two heat sealable layers are contacting each other.
 - The heat sealable plastic we are using is Tekra MYLAR® 850H 0.48 mil, with a width of 13 inches.
 
+    ![Heat Sealing Image 2](Images/IMG_5139.png)
+
 1. Tape the tape the double layer of plastic onto the print bed, leaving as few wrinkles and as little air between the two sheets as possible.
 
-    ![Alt text](Images/IMG_8276.png)
+    ![Heat Sealing Image 3](Images/IMG_5140.png)
 
 1. Tape the teflon sheet to the print bed on top of the plastic.
 
-    ![Alt text](Images/IMG_0494.png)
+    ![Heat Sealing Image 4](Images/IMG_5141.png)
 
 1. Turn on the printer and navigate to "Print from TF".
 
-    ![Alt text](Images/IMG_0499.png)
+    ![Heat Sealing Image 5](Images/IMG_5143.png)
 
 1. Select your saved gcode file and wait for the heat sealing to complete.
 
-    ![Alt text](Images/IMG_0500.png)
+    ![Heat Sealing Image 6](Images/IMG_5144.png)
 
-## Step 5: Filling The HASEL (TODO)
+1. Remove the teflon from the print bed and examine the heat seal. The heat seal should appear as a consistent dark color while still on the print bed. If the heat seal appears faint, the bed height is too low, and if the heat seal is an inconsistent darkness, the bed is not level.
+
+    ![Heat Sealing Image 7](Images/IMG_5148.png)
+
+1. Remove the plastic from the print bed.
+
+## Step 5: Filling The HASEL (mock HASEL version)
+
+1. Cut the pouch out of the larger sheet, leaving a generous border and any additional plastic if more is desired for attachment.
+
+    ![Filling Image 1](Images/IMG_5149.png)
+
+1. Fill a container with water and use it to fill a blunt tip syringe.
+
+    ![Filling Image 2](Images/IMG_5158.png)
+
+1. Hold the pouch vertically and fill with water using the syringe. Use a predetermined volume of water if one has been calculated or experimentally determined.
+
+    ![Filling Image 3](Images/IMG_5151.png)
+
+1. Use a heat sealer to heat seal the pouch opening closed
+
+    ![Filling Image 4](Images/IMG_5152.png)
+    ![Filling Image 5](Images/IMG_5157.png)
+
+## Step 5: Filling The HASEL (actual HASEL version)
