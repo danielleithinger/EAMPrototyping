@@ -42,7 +42,7 @@
 
 2. Click on the print settings in the upper right. Set the "Printing Temperature" to 260 °C, and "Bed Plate Temperature" to 0 °C, and the "Initial Layer Speed" to 2 mm/s. You can use the search box to find these specific settings.
     - These values may need to be adjusted for different types and thicknesses of plastic, but 260 °C is the maximum printing temperature for the Ender-3 Pro.
-    - I would also like to print with no fillament being extruded, but I have not figured out how to do that yet. The heat sealing does still work with filament being extruded.
+    - I would also like to print with no extrusion occurring, but I have not figured out how to do that yet. The filament will be removed from the printer while heat sealing anyway.
 
     ![Cura Screenshot 2](<Images/Cura Screenshot 2.png>)
     ![Cura Screenshot 3](<Images/Cura Screenshot 3.png>)
@@ -75,7 +75,9 @@
 
         ![Setup Image 5](Images/IMG_5136.png)
 
-2. I also flipped the bed upside down to get a smoother surface to heat seal on. I am unsure if this is necessary.
+2. If any filament is loaded into the 3D printer, remove it for heat sealing. If not removed, it will build up behind the nozzle, causing potentially damaging pressure.
+
+3. I also flipped the bed upside down to get a smoother surface to heat seal on. I am unsure if this is necessary.
 
 ## Step 4: Perform the Heat Sealing
 
