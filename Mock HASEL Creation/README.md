@@ -7,6 +7,9 @@
     ![Fusion360 Screenshot 1](<Images/Fusion360 Screenshot 1.png>)
 
 2. Make the path that you want the 3D printer to follow out of construction geometry.
+    - For a 22 guage blunt tip syringe, the opening width should be approximately 1.2 mm, or replace the 2 mm dimension with 1 mm in the opening example shown.
+    - When creating channels between chambers, an 8 mm width works well, though I have gotten 6 mm and even 4 mm to function.
+    - For mock HASELs with a pump chamber and a connecting channel, I typically use a 30mm diameter pump chamber and a 45 mm long channel, though a larger pump chamber is needed for some designs.
 
     ![Fusion360 Screenshot 2](<Images/Fusion360 Screenshot 2.png>)
 
@@ -58,14 +61,16 @@
     ![Cura Screenshot 5](<Images/Cura Screenshot 5.png>)
 
 ## Step 3: Set up 3D printer for Heat Sealing
+- We are using an Ender-3 Pro
 
 1. Adjust the bed height so that the nozzle contacts the teflon while heat sealing.
     1. Acquire a section of teflon and two layers of plastic that you will be using for heat sealing.
+        - The specific materials we are using are mentioned in the next section
 
         ![Setup Image 1](Images/IMG_5128.png)
 
     2. Turn on the Ender-3 and go to the "Prepare" menu. Select "Auto Home" and then, within "Move Axis", use "Move X" and "Move Y" to position the extruder in the following steps. The move axis commands function by selecting a displacement such as "Move 10mm" and then turning the dial to move the extruder in those increments.
-    - You will also need to "Move Z" up by the layer height for calibration. This is because the 3D printer will start the print a layer height's distance off of the print bed, and we want to in contact with the teflon. This will cause some collision when the printer autohomes, but the effects have seemed negligeable. Ideally the printer would not start a layer height above the bed, but I have not figured out a simple way to disable this.
+        - You will also need to "Move Z" up by the layer height for calibration. This is because the 3D printer will start the print a layer height's distance off of the print bed, and we want to in contact with the teflon. This will cause some collision when the printer autohomes, but the effects have seemed negligeable. Ideally the printer would not start a layer height above the bed, but I have not figured out a simple way to disable this.
     
         ![Setup Image 2](Images/IMG_5131.png)
         ![Setup Image 3](Images/IMG_5132.png)
@@ -82,11 +87,12 @@
 ## Step 4: Perform the Heat Sealing
 
 1. Cut a piece of teflon to the size of the print bed. A printer bed can be used as a template to get the correct size. The teflon can be reused for multiple times.
+    - We are using shovan PTFE Teflon sheets.
 
     ![Heat Sealing Image 1](Images/IMG_0493.png)
 
 2. Cut a 9.5 inch strip of plastic, equivalent to the length of the print bed, off the end of the roll of plastic, and fold it in half to get a double layered sheet of plastic to heat seal. Make sure that the inside of the plastic is folded together so that the two heat sealable layers are contacting each other.
-- The heat sealable plastic we are using is Tekra MYLAR® 850H 0.48 mil, with a width of 13 inches.
+    - The heat sealable plastic we are using is Tekra MYLAR® 850H 0.48 mil, with a width of 13 inches.
 
     ![Heat Sealing Image 2](Images/IMG_5139.png)
 
@@ -118,11 +124,13 @@
 
     ![Filling Image 1](Images/IMG_5149.png)
 
-1. Fill a container with water and use it to fill a blunt tip syringe.
+1. Fill a container with water and fill a blunt tip syringe from it.
+    - We are using 10 mL Syringes with 22 gauge 1 inch long Blunt Tip Needles.
 
     ![Filling Image 2](Images/IMG_5158.png)
 
 1. Hold the pouch vertically and fill with water using the syringe. Use a predetermined volume of water if one has been calculated or experimentally determined.
+    - In mock HASELs with a channel connecting the actuating chambers with the pump chamber, fill the pouch with enough water to fill the actuating chambers and channel completely.
 
     ![Filling Image 3](Images/IMG_5151.png)
 
