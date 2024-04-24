@@ -118,7 +118,7 @@
 
 1. Remove the plastic from the print bed.
 
-## Step 5: Filling The HASEL (mock HASEL version)
+## Step 5: Filling The HASEL
 
 1. Cut the pouch out of the larger sheet, leaving a generous border and any additional plastic if more is desired for attachment.
 
@@ -138,5 +138,3 @@
 
     ![Filling Image 4](Images/IMG_5152.png)
     ![Filling Image 5](Images/IMG_5157.png)
-
-## Step 5: Filling The HASEL (actual HASEL version)
